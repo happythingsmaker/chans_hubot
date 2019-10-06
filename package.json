@@ -20,7 +20,8 @@
     "hubot-scripts": "^2.17.2",
     "hubot-shipit": "^0.2.1",
     "hubot-slack": "^4.7.1",
-    "xml2js": "^0.4.19"
+    "xml2js": "^0.4.19",
+    "moment-timezone": "^0.5.25",
   },
   "engines": {
     "node": "0.10.x"
