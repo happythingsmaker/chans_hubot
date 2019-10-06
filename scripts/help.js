@@ -110,7 +110,7 @@ module.exports = (robot) => {
   }
 }
 
-var getHelpCommands = function getHelpCommands (robot) {
+var getHelpCommands = function getHelpCommands(robot) {
   let helpCommands = robot.helpCommands()
 
   const robotName = robot.alias || robot.name
@@ -130,7 +130,7 @@ var getHelpCommands = function getHelpCommands (robot) {
   return helpCommands.sort()
 }
 
-var hiddenCommandsPattern = function hiddenCommandsPattern () {
+var hiddenCommandsPattern = function hiddenCommandsPattern() {
   const hiddenCommands = process.env.HUBOT_HELP_HIDDEN_COMMANDS != null ? process.env.HUBOT_HELP_HIDDEN_COMMANDS.split(',') : undefined
   if (hiddenCommands) {
     return new RegExp(`^hubot (?:${hiddenCommands != null ? hiddenCommands.join('|') : undefined}) - `)
