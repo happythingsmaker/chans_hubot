@@ -22,6 +22,7 @@
     "hubot-slack": "^4.7.1",
     "xml2js": "^0.4.19",
     "mongodb": "^3.x",
+    "wolfram-alpha-api": "https://products.wolframalpha.com/api/libraries/javascript/wolfram-alpha-api-1.0.0-rc.1.tgz",
     "moment-timezone": "^0.5.25"
   },
   "engines": {
